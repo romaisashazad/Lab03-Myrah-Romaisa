@@ -1,4 +1,4 @@
-code: # task 3 s:
+# task 3 s:
 .text
 .globl main
 

@@ -2,10 +2,10 @@
 .globl main
 
 main:
-    li x10, 30    # g = 30
-    li x11, 20    # h = 20  
-    li x12, 10    # i = 10
-    li x13, 5     # j = 5
+    addi x10,x0, 30    # g = 30
+    addi x11,x0, 20    # h = 20  
+    addi x12,x0, 10    # i = 10
+    addi x13,x0, 5     # j = 5
     
     jal x1,leaf_example 
     
